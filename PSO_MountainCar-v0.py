@@ -76,7 +76,7 @@ def PSO():
                     globalbest.bestposition = pp.bestposition
         w = w * wDamp
         print(i, globalbest.bestfitness, globalbest.bestposition)
-        if globalbest.bestfitness >=0.53:
+        if globalbest.bestfitness >=0.5:
             break
 
 PSO()
